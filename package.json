@@ -1,0 +1,20 @@
+{
+  "name": "kick-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot para verificar subs de Kick y asignar roles VIP en Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
